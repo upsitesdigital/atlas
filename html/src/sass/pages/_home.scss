@@ -1,0 +1,104 @@
+/*======================================
+  Home
+======================================*/
+
+.featured {
+  padding: 174px 0 56px 0;
+  text-align: center;
+  background: #F7F7F7 url(../img/mapa-america-do-sul.png) top center no-repeat;
+  h1 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 125%;
+    text-align: center;
+    color: #222222;
+    padding: 0 0 17px 0;
+  }
+  p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #222222;
+  }
+  .btn {
+    margin: 31px auto;
+    padding: 17px 89px;
+  }
+  .grid {
+    @include columns( $quant: repeat(3, 1fr), $gutter: 24px, $align: stretch, $template: '');
+    margin-top: 148px;
+    .item {
+      padding: 72px 37px 90px;
+      position: relative;
+      background-color: $color-white;
+      &:before {
+        content: '';
+        width: 80px;
+        height: 2px;
+        background-color: #00CBCA;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+      .icon {
+        @include inline-block($align: middle);
+        width: 32px;
+        height: 32px;
+        background-color: #222222;
+      }
+      h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #14464A;
+        padding: 40px 0 32px 0;
+      }
+      p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #66716E;
+      }
+    }
+  }
+}
+
+.support {
+  padding: 83px 0 91px 0;
+  border-bottom: 1px solid #E3E8EC;
+  background-color: $color-white;
+  .primary {
+    text-align: center;
+  }
+  .grid {
+    @include columns( $quant: repeat(4, 1fr), $gutter: 24px, $align: stretch, $template: '');
+    padding: 86px 0 0 0;
+    .item {
+      text-align: center;
+    }
+  }
+}
+
+@include breakpoint2($min:xl, $max:'') {}
+
+@include breakpoint2($min:lg, $max:xl) {}
+
+@include breakpoint2($min:md, $max:lg) {}
+
+@include breakpoint2($min:sm, $max:md) {}
+
+@include breakpoint2($min:xs, $max:sm) {}
+
+@include breakpoint2($min:'', $max:xs) {}

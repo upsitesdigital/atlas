@@ -1,0 +1,29 @@
+/*======================================
+  Buttons
+======================================*/
+
+.btn {
+  @include animate($time: 0.3s);
+  @include inline-block($align: middle);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #222222;
+  background: #00CBCA;
+  border-radius: 4px;
+}
+
+@include breakpoint2($min:xl, $max:'') {}
+
+@include breakpoint2($min:lg, $max:xl) {}
+
+@include breakpoint2($min:md, $max:lg) {}
+
+@include breakpoint2($min:sm, $max:md) {}
+
+@include breakpoint2($min:xs, $max:sm) {}
+
+@include breakpoint2($min:'', $max:xs) {}
