@@ -2,11 +2,42 @@
   Sidebar structure
 ======================================*/
 
+.small-menu main {
+  .grid-primary {
+    @include columns( $quant: 64px 1fr, $gutter: 0, $align: stretch, $template: 'sidebar content');
+    &>.sidebar {
+      .logo {
+        display: none;
+      }
+      .box-menu {
+        ul {
+          li {
+            a {
+              span {
+                display: none;
+              }
+              .icon.rotate90 {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 .sidebar {
   width: 100%;
+  .top-side {
+    width: 100%;
+    height: 107px;
+    display: flex;
+    align-items: center;
+  }
   .logo {
     display: inline-block;
-    padding: 24px 35px 30px 15px;
+    padding: 0 35px 0 15px;
   }
   .btn-menu {
     width: 24px;

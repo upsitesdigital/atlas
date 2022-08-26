@@ -159,6 +159,7 @@
     .title {
       display: flex;
       align-items: center;
+      justify-content: space-between;
       padding: 36px 0 24px 3px;
       h1 {
         font-family: 'Roboto';
@@ -351,19 +352,19 @@
     /* list-box */
     .list-box {
       &.one {
-        @include columns( $quant: 1fr, $gutter: 22px, $align: stretch, $template: '');
+        @include columns( $quant: 100%, $gutter: 2%, $align: stretch, $template: '');
       }
       &.two {
-        @include columns( $quant: repeat(2, 1fr), $gutter: 22px, $align: stretch, $template: '');
+        @include columns( $quant: 49% 49%, $gutter: 22px 2%, $align: stretch, $template: '');
       }
       &.three {
-        @include columns( $quant: repeat(3, 1fr), $gutter: 22px, $align: stretch, $template: '');
+        @include columns( $quant: 32% 32% 32%, $gutter: 22px 2%, $align: stretch, $template: '');
       }
       &.four {
-        @include columns( $quant: repeat(4, 1fr), $gutter: 22px, $align: stretch, $template: '');
+        @include columns( $quant: 23.5% 23.5% 23.5% 23.5%, $gutter: 22px 2%, $align: stretch, $template: '');
       }
       &.five {
-        @include columns( $quant: repeat(5, 1fr), $gutter: 22px, $align: stretch, $template: '');
+        @include columns( $quant: 18.4% 18.4% 18.4% 18.4% 18.4%, $gutter: 22px 2%, $align: stretch, $template: '');
       }
       /* box */
       .box {
@@ -379,6 +380,120 @@
           width: 100%;
           overflow: hidden;
           padding: 38px 24px;
+          position: relative;
+          #table_id_length {
+            padding-bottom: 24px;
+            label {
+              font-family: 'Roboto';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 13px;
+              line-height: 15px;
+              color: #66716E;
+              opacity: 0.7;
+            }
+          }
+          .dataTables_scroll {
+            border: 1px solid #E3E8EC;
+            border-width: 1px 1px 0 0;
+            .dataTables_scrollHead {
+              table {
+                thead {
+                  th {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 100%;
+                    color: #222222;
+                    padding: 20px 32px;
+                  }
+                }
+              }
+            }
+            .dataTables_scrollBody {
+              tbody {
+                tr {
+                  &.odd {
+                    background-color: #F9F9F9;
+                    .dtfc-fixed-left {
+                      background-color: #F9F9F9;
+                    }
+                  }
+                  &.even {
+                    background-color: #FFFFFF;
+                    .dtfc-fixed-left {
+                      background-color: #FFFFFF;
+                    }
+                  }
+                  td {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #66716E;
+                    padding: 12px 32px;
+                    box-shadow: none;
+                    border: none;
+                    border-left: 1px solid #E3E8EC;
+                  }
+                }
+              }
+            }
+          }
+          #table_id_info {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            color: #222222;
+            opacity: 0.7;
+            padding: 40px 0 0 0;
+          }
+          #table_id_paginate {
+            padding: 25px 0 0 0;
+            .paginate_button {
+              font-family: 'Roboto';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 100%;
+              color: #00CBCA !important;
+              border: 1px solid #E3E8EC;
+              border-radius: 4px;
+              padding: 14px;
+              &.current {
+                border: 1px solid #00CBCA;
+                color: #FFFFFF !important;
+                background-color: #00CBCA;
+              }
+              &.previous,
+              &.next {
+                padding: 14px 36px;
+                &.disabled {
+                  border: 1px solid #F7F7F7;
+                  color: #222222 !important;
+                  opacity: 0.5;
+                }
+              }
+              &:hover {
+                background: transparent;
+                border: 1px solid #00CBCA;
+                &.current {
+                  border: 1px solid #00CBCA;
+                  color: #FFFFFF !important;
+                  background-color: #00CBCA;
+                }
+              }
+            }
+          }
+          .btns-box {
+            position: absolute;
+            top: 23px;
+            right: 0;
+          }
         }
         &.country-name {
           display: flex;

@@ -14,4 +14,10 @@ export default function() {
     $target.slideToggle();
     return false;
   });
+
+  $(document).on('click', '.sidebar .btn-menu', function() {
+    var $target = $('body');
+    $target.toggleClass('small-menu');
+    return false;
+  });
 }

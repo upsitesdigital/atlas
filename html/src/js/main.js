@@ -18,7 +18,7 @@ import slider from './modules/slider';
 /**
  * Pages
  */
-import home from './pages/_home';
+import app from './pages/_app';
 
 
 (($) => {
@@ -28,6 +28,6 @@ import home from './pages/_home';
     svg4everybody();
     slider();
     // plugins();
-    home();
+    app();
   });
 })(jQuery);
