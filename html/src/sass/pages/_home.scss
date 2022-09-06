@@ -6,6 +6,7 @@
   padding: 174px 0 56px 0;
   text-align: center;
   background: #F7F7F7 url(../img/mapa-america-do-sul.png) top center no-repeat;
+  background-size: contain;
   h1 {
     font-family: 'DM Serif Display';
     font-style: normal;
@@ -75,6 +76,86 @@
   }
 }
 
+@include breakpoint2($min:sm, $max:lg) {
+  .featured {
+    padding: get-vw-lg(174px) 0 get-vw-lg(56px) 0;
+    h1 {
+      font-size: get-vw-lg(56px);
+      padding: 0 0 get-vw-lg(17px) 0;
+    }
+    p {
+      font-size: get-vw-lg(18px);
+    }
+    .btn {
+      margin: get-vw-lg(31px) auto;
+      padding: get-vw-lg(17px) get-vw-lg(89px);
+    }
+    .grid {
+      @include columns( $quant: repeat(3, 1fr), $gutter: get-vw-lg(24px), $align: stretch, $template: '');
+      margin-top: get-vw-lg(148px);
+      .item {
+        padding: get-vw-lg(72px) get-vw-lg(37px) get-vw-lg(90px);
+        &:before {
+          width: get-vw-lg(80px);
+          height: get-vw-lg(2px);
+        }
+        .icon {
+          width: get-vw-lg(32px);
+          height: get-vw-lg(32px);
+        }
+        h2 {
+          font-size: get-vw-lg(24px);
+          line-height: get-vw-lg(28px);
+          padding: get-vw-lg(40px) 0 get-vw-lg(32px) 0;
+        }
+        p {
+          font-size: get-vw-lg(16px);
+        }
+      }
+    }
+  }
+}
+
+@include breakpoint2($min:'', $max:sm) {
+  .featured {
+    padding: get-vw-sm(174px) 0 get-vw-sm(56px) 0;
+    h1 {
+      font-size: get-vw-sm(56px);
+      padding: 0 0 get-vw-sm(17px) 0;
+    }
+    p {
+      font-size: get-vw-sm(18px);
+    }
+    .btn {
+      margin: get-vw-sm(31px) auto;
+      padding: get-vw-sm(17px) get-vw-sm(89px);
+    }
+    .grid {
+      @include columns( $quant: 1fr, $gutter: get-vw-sm(24px), $align: stretch, $template: '');
+      margin-top: get-vw-sm(148px);
+      .item {
+        padding: get-vw-sm(72px) get-vw-sm(37px) get-vw-sm(90px);
+        &:before {
+          width: get-vw-sm(80px);
+          height: get-vw-sm(2px);
+        }
+        .icon {
+          width: get-vw-sm(32px);
+          height: get-vw-sm(32px);
+        }
+        h2 {
+          font-size: get-vw-sm(24px);
+          line-height: get-vw-sm(28px);
+          padding: get-vw-sm(40px) 0 get-vw-sm(32px) 0;
+        }
+        p {
+          font-size: get-vw-sm(16px);
+        }
+      }
+    }
+  }
+}
+
 .support {
   padding: 83px 0 91px 0;
   border-bottom: 1px solid #E3E8EC;
@@ -87,18 +168,30 @@
     padding: 86px 0 0 0;
     .item {
       text-align: center;
+      img {
+        max-width: 100%;
+        height: auto;
+      }
     }
   }
 }
 
-@include breakpoint2($min:xl, $max:'') {}
+@include breakpoint2($min:sm, $max:lg) {
+  .support {
+    padding: get-vw-lg(83px) 0 get-vw-lg(91px) 0;
+    .grid {
+      @include columns( $quant: repeat(4, 1fr), $gutter: get-vw-lg(24px), $align: stretch, $template: '');
+      padding: get-vw-lg(86px) 0 0 0;
+    }
+  }
+}
 
-@include breakpoint2($min:lg, $max:xl) {}
-
-@include breakpoint2($min:md, $max:lg) {}
-
-@include breakpoint2($min:sm, $max:md) {}
-
-@include breakpoint2($min:xs, $max:sm) {}
-
-@include breakpoint2($min:'', $max:xs) {}
+@include breakpoint2($min:'', $max:sm) {
+  .support {
+    padding: get-vw-sm(83px) 0 get-vw-sm(91px) 0;
+    .grid {
+      @include columns( $quant: repeat(2, 1fr), $gutter: get-vw-sm(24px), $align: stretch, $template: '');
+      padding: get-vw-sm(86px) 0 0 0;
+    }
+  }
+}

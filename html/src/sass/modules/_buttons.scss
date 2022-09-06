@@ -16,14 +16,18 @@
   border-radius: 4px;
 }
 
-@include breakpoint2($min:xl, $max:'') {}
+@include breakpoint2($min:sm, $max:lg) {
+  .btn {
+    font-size: get-vw-lg(18px);
+    line-height: get-vw-lg(21px);
+    border-radius: get-vw-lg(4px);
+  }
+}
 
-@include breakpoint2($min:lg, $max:xl) {}
-
-@include breakpoint2($min:md, $max:lg) {}
-
-@include breakpoint2($min:sm, $max:md) {}
-
-@include breakpoint2($min:xs, $max:sm) {}
-
-@include breakpoint2($min:'', $max:xs) {}
+@include breakpoint2($min:'', $max:sm) {
+  .btn {
+    font-size: get-vw-sm(18px);
+    line-height: get-vw-sm(21px);
+    border-radius: get-vw-sm(4px);
+  }
+}
