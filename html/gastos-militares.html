@@ -167,8 +167,7 @@
               <!-- end:btns-box -->
               <div class="filter-nation small-padding">
                 <label for="">Selecionar país</label>
-                <select name="" id="">
-                  <option value="ar">Argentina</option>
+                <select name="" id="countryAll">
                 </select>
               </div>
               <div class="filter-segment small-padding">
@@ -195,11 +194,13 @@
                 </div>
                 <!-- list-box -->
 
+
+
                 <!-- list-box -->
                 <div class="list-box two mtop-55">
-                  <div class="box graphic">
+                  <div class="box heightAuto graphic">
                     <div class="header">
-                      <h3>Gastos Militares
+                      <h3>Em moeda nacional
                         <svg class="icon">
                           <use xlink:href="assets/img/icons.svg#info"></use>
                         </svg>
@@ -214,19 +215,13 @@
                       </div>
                       <!-- end:btns-box -->
                     </div>
-                    <div class="filter">
-                      <label for="">Período</label>
-                      <input type="text" name="" class="init">
-                      <span class="div"></span>
-                      <input type="text" name="" class="end">
-                    </div>
                     <div class="graphics">
-                      <canvas id="myChart" width="100%"></canvas>
+                      <canvas id="moedalocal"></canvas>
                     </div>
                   </div>
-                  <div class="box graphic">
+                  <div class="box heightAuto graphic">
                     <div class="header">
-                      <h3>Operações de Paz
+                      <h3>Em dólar constante
                         <svg class="icon">
                           <use xlink:href="assets/img/icons.svg#info"></use>
                         </svg>
@@ -241,19 +236,13 @@
                       </div>
                       <!-- end:btns-box -->
                     </div>
-                    <div class="filter center">
-                      <label for="">&nbsp;</label>
-                      <select name="" id="">
-                    <option value="ar">Argentina</option>
-                  </select>
-                    </div>
                     <div class="graphics">
-                      <canvas id="myChart2"></canvas>
+                      <canvas id="dolar"></canvas>
                     </div>
                   </div>
-                  <div class="box graphic">
+                  <div class="box heightAuto graphic">
                     <div class="header">
-                      <h3>Transferência de Armamentos
+                      <h3>Em % do PIB
                         <svg class="icon">
                           <use xlink:href="assets/img/icons.svg#info"></use>
                         </svg>
@@ -268,14 +257,50 @@
                       </div>
                       <!-- end:btns-box -->
                     </div>
-                    <div class="filter">
-                      <label for="">Período</label>
-                      <input type="text" name="" class="init">
-                      <span class="div"></span>
-                      <input type="text" name="" class="end">
+                    <div class="graphics">
+                      <canvas id="pib"></canvas>
+                    </div>
+                  </div>
+                  <div class="box heightAuto graphic">
+                    <div class="header">
+                      <h3>Per capita (US$ correntes)
+                        <svg class="icon">
+                          <use xlink:href="assets/img/icons.svg#info"></use>
+                        </svg>
+                      </h3>
+                      <!-- btns-box -->
+                      <div class="btns-box">
+                        <a href="#" class="down">
+                          <svg class="icon">
+                            <use xlink:href="assets/img/icons.svg#download"></use>
+                          </svg>
+                        </a>
+                      </div>
+                      <!-- end:btns-box -->
                     </div>
                     <div class="graphics">
-                      <canvas id="myChart3"></canvas>
+                      <canvas id="percapitaldolar"></canvas>
+                    </div>
+                  </div>
+                  <div class="box heightAuto graphic">
+                    <div class="header">
+                      <h3>Em % do gasto governamental
+                        <svg class="icon">
+                          <use xlink:href="assets/img/icons.svg#info"></use>
+                        </svg>
+                      </h3>
+                      <!-- btns-box -->
+                      <div class="btns-box">
+                        <a href="#" class="down">
+                          <svg class="icon">
+                            <use xlink:href="assets/img/icons.svg#download"></use>
+                          </svg>
+                        </a>
+                      </div>
+                      <!-- end:btns-box -->
+                    </div>
+                    <div class="graphics">
+                      <canvas id="governo"></canvas>
                     </div>
                   </div>
                 </div>
@@ -291,58 +316,8 @@
                   </h2>
                 </div>
                 <!-- end:subtitle -->
-                <table>
+                <table id="table_id">
                   <tbody>
-                    <tr>
-                      <td><b>1</b></td>
-                      <td>Colombia</td>
-                      <td>3,4%</td>
-                    </tr>
-                    <tr>
-                      <td><b>1</b></td>
-                      <td>Colombia</td>
-                      <td>3,4%</td>
-                    </tr>
-                    <tr>
-                      <td><b>1</b></td>
-                      <td>Colombia</td>
-                      <td>3,4%</td>
-                    </tr>
-                    <tr>
-                      <td><b>1</b></td>
-                      <td>Colombia</td>
-                      <td>3,4%</td>
-                    </tr>
-                    <tr>
-                      <td><b>1</b></td>
-                      <td>Colombia</td>
-                      <td>3,4%</td>
-                    </tr>
-                    <tr>
-                      <td><b>1</b></td>
-                      <td>Colombia</td>
-                      <td>3,4%</td>
-                    </tr>
-                    <tr>
-                      <td><b>1</b></td>
-                      <td>Colombia</td>
-                      <td>3,4%</td>
-                    </tr>
-                    <tr>
-                      <td><b>1</b></td>
-                      <td>Colombia</td>
-                      <td>3,4%</td>
-                    </tr>
-                    <tr>
-                      <td><b>1</b></td>
-                      <td>Colombia</td>
-                      <td>3,4%</td>
-                    </tr>
-                    <tr>
-                      <td><b>1</b></td>
-                      <td>Colombia</td>
-                      <td>3,4%</td>
-                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -369,72 +344,249 @@
   <script src="assets/js/bundle.js"></script>
   <!-- script src="assets/js/bundle.min.js"></script -->
   <script>
-    const myChart = new Chart($('#myChart'), {
-      data: {
-        datasets: [{
-          type: 'bar',
-          label: 'Bar Dataset',
-          data: [4000, 18000, 9000, 7000],
-          backgroundColor: [
-            'rgba(255, 99, 132, 0.2)',
-            'rgba(54, 162, 235, 0.2)',
-            'rgba(255, 206, 86, 0.2)',
-            'rgba(75, 192, 192, 0.2)'
-          ],
-        }, {
-          type: 'line',
-          label: 'Line Dataset',
-          data: [4000, 18000, 9000, 7000],
-          borderColor: 'rgba(0, 0, 0, 1)',
-          borderWidth: 1
-        }],
-        labels: ['January', 'February', 'March', 'April']
-      },
-      options: {
-        responsive: true,
+    $.ajax({
+      url: 'assets/planilhas/gastos-militares-brasil.xml',
+      dataType: 'xml',
+
+      // Caso tenha encontrato o arquivo, leio os dados do xml
+      success: function(xml) {
+        let $count = 0;
+        let labels = [];
+        let moedalocal = [];
+        let dolar = [];
+        let pib = [];
+        let percapitaldolar = [];
+        let governo = [];
+        $(xml).find('Row').each(function() {
+          if ($count != 0) {
+
+            $($(this)[0].children).each(function() {
+              if ($(this)[0].textContent == 'null') {
+                $html += '--';
+              } else {
+                if ($count === 1) {
+                  labels.push($(this)[0].textContent);
+                } else if ($count === 2) {
+                  moedalocal.push($(this)[0].textContent);
+                } else if ($count === 3) {
+                  dolar.push($(this)[0].textContent);
+                } else if ($count === 4) {
+                  pib.push(($(this)[0].textContent * 100));
+                } else if ($count === 5) {
+                  percapitaldolar.push($(this)[0].textContent);
+                } else if ($count === 6) {
+                  governo.push($(this)[0].textContent);
+                }
+              }
+            });
+          }
+          $count++;
+        });
+        /*const myChart = new Chart($('#myChart'), {
+          data: {
+            datasets: [{
+              type: 'bar',
+              label: 'Em moeda nacional',
+              data: moedalocal,
+              yAxisID: 'moedalocal'
+            }, {
+              type: 'line',
+              label: 'Em % PIB',
+              data: pib,
+              borderColor: 'rgba(0, 0, 0, 1)',
+              borderWidth: 1,
+              yAxisID: 'pib'
+            }],
+            labels: labels
+          },
+          options: {
+            responsive: true,
+            legend: {
+              display: false,
+            },
+            scales: {
+              moedalocal: {
+                beginAtZero: true,
+                type: 'linear',
+                position: 'left',
+              },
+              pib: {
+                beginAtZero: true,
+                type: 'linear',
+                position: "right",
+                grid: {
+                  display: false
+                },
+              }
+            }
+          }
+        });*/
+        const moedalocalG = new Chart($('#moedalocal'), {
+          data: {
+            datasets: [{
+              type: 'bar',
+              label: 'Bar Dataset',
+              data: moedalocal,
+              /*backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)'
+              ],*/
+            }],
+            labels: labels
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                display: false,
+              }
+            }
+          }
+        });
+        const dolarG = new Chart($('#dolar'), {
+          data: {
+            datasets: [{
+              type: 'bar',
+              label: 'Bar Dataset',
+              data: dolar,
+              /*backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)'
+              ],*/
+            }],
+            labels: labels
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                display: false,
+              }
+            }
+          }
+        });
+        const pibG = new Chart($('#pib'), {
+          data: {
+            datasets: [{
+              type: 'bar',
+              label: 'Bar Dataset',
+              data: pib,
+              /*backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)'
+              ],*/
+            }],
+            labels: labels
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                display: false,
+              }
+            }
+          }
+        });
+        const percapitaldolarG = new Chart($('#percapitaldolar'), {
+          data: {
+            datasets: [{
+              type: 'bar',
+              label: 'Bar Dataset',
+              data: percapitaldolar,
+              /*backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)'
+              ],*/
+            }],
+            labels: labels
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                display: false,
+              }
+            }
+          }
+        });
+        const governoG = new Chart($('#governo'), {
+          data: {
+            datasets: [{
+              type: 'bar',
+              label: 'Bar Dataset',
+              data: governo,
+              /*backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)'
+              ],*/
+            }],
+            labels: labels
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                display: false,
+              }
+            }
+          }
+        });
+
       }
     });
-    const myChart2 = new Chart($('#myChart2'), {
-      data: {
-        datasets: [{
-          type: 'doughnut',
-          label: 'Bar Dataset',
-          data: [4000, 18000, 9000, 7000],
-          backgroundColor: [
-            'rgba(255, 99, 132, 0.2)',
-            'rgba(54, 162, 235, 0.2)',
-            'rgba(255, 206, 86, 0.2)',
-            'rgba(75, 192, 192, 0.2)'
-          ],
-        }],
-        labels: ['January', 'February', 'March', 'April']
-      },
-      options: {
-        responsive: true,
+
+    $.ajax({
+      url: 'assets/planilhas/gastos-militares-pib.xml',
+      dataType: 'xml',
+
+      // Caso tenha encontrato o arquivo, leio os dados do xml
+      success: function(xml) {
+        var $count = 1;
+        let countryAll = [];
+        let country = {};
+        let pib = [];
+        $(xml).find('Row').each(function() {
+          var cou = '';
+          var val = '';
+          var value = '';
+          $($(this)[0].children).each(function() {
+            if ($count == 1) {
+              cou = $(this)[0].textContent;
+              countryAll.push($(this)[0].textContent);
+            } else {
+              val = $(this)[0].textContent * 100;
+              value = val.toFixed(2);
+              $count = 0;
+            }
+            country[cou] = value;
+            $count++;
+          });
+
+        });
+        var numb = 1;
+        $.each(country, function(index, value) {
+          if (value != 0) {
+            $('#table_id').append('<tr><td>' + numb + '</td><td>' + index + '</td><td>' + value + '</td></tr>');
+          }
+          numb++;
+        });
+        console.log(countryAll.sort());
+        $.each(countryAll.sort(), function(index, value) {
+          let act = value == 'Brasil' ? 'selected' : '';
+          $('#countryAll').append('<option ' + act + '>' + value + '</option>');
+        });
+
       }
-    });
-    const myChart3 = new Chart($('#myChart3'), {
-      data: {
-        datasets: [{
-          type: 'line',
-          label: 'Line Dataset',
-          data: [4000, 18000, 9000, 7000],
-          borderColor: 'rgba(0, 0, 0, 1)',
-          borderWidth: 1
-        }],
-        labels: ['January', 'February', 'March', 'April']
-      },
-      options: {
-        responsive: true,
-      }
-    });
-    $(document).ready(function() {
-      $('#table_id').DataTable({
-        searching: false,
-        scrollX: true,
-        scrollCollapse: true,
-        fixedColumns: true
-      });
     });
   </script>
 

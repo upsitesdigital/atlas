@@ -370,6 +370,9 @@
       .box {
         background: #FFFFFF;
         border-radius: 8px;
+        &.heightAuto {
+          min-height: auto !important;
+        }
         &.transparent {
           background: transparent;
         }

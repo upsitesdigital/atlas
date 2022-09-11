@@ -20,4 +20,6 @@ export default function() {
     $target.toggleClass('small-menu');
     return false;
   });
+
+
 }
