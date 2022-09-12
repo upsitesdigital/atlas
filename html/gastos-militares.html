@@ -170,12 +170,12 @@
                 <select name="" id="countryAll">
                 </select>
               </div>
-              <div class="filter-segment small-padding">
+              <!-- div class="filter-segment small-padding">
                 <label for="">Segmento</label>
                 <select name="" id="">
                   <option value="ar">Argentina</option>
                 </select>
-              </div>
+              </div -->
             </div>
             <!-- end:title -->
 
@@ -558,7 +558,9 @@
 
     $('#countryAll').on('change', function() {
       var $this = $(this).val();
+      var $name = $(this).find(":selected").text();
       gastosMilitares('assets/planilhas/gastos-militares-' + $this + '.xml', 1);
+      $('.country-name h1').html($name);
       return false;
     });
 
