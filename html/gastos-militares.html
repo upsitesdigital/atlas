@@ -101,15 +101,15 @@
                   </svg><span>Apresentação</span>
                 </a>
               </li>
-              <li class="act">
-                <a href="">
+              <li>
+                <a href="home.html">
                   <svg class="icon">
                     <use xlink:href="assets/img/icons.svg#home"></use>
                   </svg><span>Página Inicial</span>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="analise-por-pais.html">
                   <svg class="icon">
                     <use xlink:href="assets/img/icons.svg#globe"></use>
                   </svg><span>Análise por País</span>
@@ -125,8 +125,8 @@
                   </svg>
                 </a>
               </li>
-              <li>
-                <a href="">
+              <li class="act">
+                <a href="gastos-militares.html">
                   <svg class="icon">
                     <use xlink:href="assets/img/icons.svg#dollar-sign"></use>
                   </svg><span>Gastos Militares</span>
@@ -215,7 +215,7 @@
                       </div>
                       <!-- end:btns-box -->
                     </div>
-                    <div class="graphics">
+                    <div class="graphics moedalocalL">
                       <canvas id="moedalocal"></canvas>
                     </div>
                   </div>
@@ -236,7 +236,7 @@
                       </div>
                       <!-- end:btns-box -->
                     </div>
-                    <div class="graphics">
+                    <div class="graphics dolarL">
                       <canvas id="dolar"></canvas>
                     </div>
                   </div>
@@ -257,7 +257,7 @@
                       </div>
                       <!-- end:btns-box -->
                     </div>
-                    <div class="graphics">
+                    <div class="graphics pibL">
                       <canvas id="pib"></canvas>
                     </div>
                   </div>
@@ -278,7 +278,7 @@
                       </div>
                       <!-- end:btns-box -->
                     </div>
-                    <div class="graphics">
+                    <div class="graphics percapitaldolarL">
                       <canvas id="percapitaldolar"></canvas>
                     </div>
                   </div>
@@ -299,7 +299,7 @@
                       </div>
                       <!-- end:btns-box -->
                     </div>
-                    <div class="graphics">
+                    <div class="graphics governoL">
                       <canvas id="governo"></canvas>
                     </div>
                   </div>
@@ -344,205 +344,222 @@
   <script src="assets/js/bundle.js"></script>
   <!-- script src="assets/js/bundle.min.js"></script -->
   <script>
-    $.ajax({
-      url: 'assets/planilhas/gastos-militares-brasil.xml',
-      dataType: 'xml',
+    function removeAccents($text) {
+      $text = $text.toLowerCase();
+      $text = $text.replace(new RegExp('[ÁÀÂÃ]', 'gi'), 'a');
+      $text = $text.replace(new RegExp('[ÉÈÊ]', 'gi'), 'e');
+      $text = $text.replace(new RegExp('[ÍÌÎ]', 'gi'), 'i');
+      $text = $text.replace(new RegExp('[ÓÒÔÕ]', 'gi'), 'o');
+      $text = $text.replace(new RegExp('[ÚÙÛ]', 'gi'), 'u');
+      $text = $text.replace(new RegExp('[Ç]', 'gi'), 'c');
+      return $text;
+    }
 
-      // Caso tenha encontrato o arquivo, leio os dados do xml
-      success: function(xml) {
-        let $count = 0;
-        let labels = [];
-        let moedalocal = [];
-        let dolar = [];
-        let pib = [];
-        let percapitaldolar = [];
-        let governo = [];
-        $(xml).find('Row').each(function() {
-          if ($count != 0) {
+    function gastosMilitares($url, $change) {
+      $.ajax({
+        url: $url,
+        dataType: 'xml',
 
-            $($(this)[0].children).each(function() {
-              if ($(this)[0].textContent == 'null') {
-                $html += '--';
-              } else {
-                if ($count === 1) {
-                  labels.push($(this)[0].textContent);
-                } else if ($count === 2) {
-                  moedalocal.push($(this)[0].textContent);
-                } else if ($count === 3) {
-                  dolar.push($(this)[0].textContent);
-                } else if ($count === 4) {
-                  pib.push(($(this)[0].textContent * 100));
-                } else if ($count === 5) {
-                  percapitaldolar.push($(this)[0].textContent);
-                } else if ($count === 6) {
-                  governo.push($(this)[0].textContent);
+        // Caso tenha encontrato o arquivo, leio os dados do xml
+        success: function(xml) {
+          let $count = 0;
+          let labels = [];
+          let moedalocal = [];
+          let dolar = [];
+          let pib = [];
+          let percapitaldolar = [];
+          let governo = [];
+          //let moedalocalG = null;
+          $(xml).find('Row').each(function() {
+            if ($count != 0) {
+              $($(this)[0].children).each(function() {
+                if ($(this)[0].textContent == 'null') {
+                  $html += '--';
+                } else {
+                  if ($count === 1) {
+                    labels.push($(this)[0].textContent);
+                  } else if ($count === 2) {
+                    moedalocal.push($(this)[0].textContent);
+                  } else if ($count === 3) {
+                    dolar.push($(this)[0].textContent);
+                  } else if ($count === 4) {
+                    pib.push(($(this)[0].textContent * 100));
+                  } else if ($count === 5) {
+                    percapitaldolar.push($(this)[0].textContent);
+                  } else if ($count === 6) {
+                    governo.push($(this)[0].textContent);
+                  }
+                }
+              });
+            }
+            $count++;
+          });
+
+          console.log(labels);
+          console.log(moedalocal);
+          console.log(dolar);
+          console.log(pib);
+          console.log(percapitaldolar);
+          console.log(governo);
+
+
+          /*const myChart = new Chart($('#myChart'), {
+            data: {
+              datasets: [{
+                type: 'bar',
+                label: 'Em moeda nacional',
+                data: moedalocal,
+                yAxisID: 'moedalocal'
+              }, {
+                type: 'line',
+                label: 'Em % PIB',
+                data: pib,
+                borderColor: 'rgba(0, 0, 0, 1)',
+                borderWidth: 1,
+                yAxisID: 'pib'
+              }],
+              labels: labels
+            },
+            options: {
+              responsive: true,
+              legend: {
+                display: false,
+              },
+              scales: {
+                moedalocal: {
+                  beginAtZero: true,
+                  type: 'linear',
+                  position: 'left',
+                },
+                pib: {
+                  beginAtZero: true,
+                  type: 'linear',
+                  position: "right",
+                  grid: {
+                    display: false
+                  },
                 }
               }
-            });
-          }
-          $count++;
-        });
-        /*const myChart = new Chart($('#myChart'), {
-          data: {
-            datasets: [{
-              type: 'bar',
-              label: 'Em moeda nacional',
-              data: moedalocal,
-              yAxisID: 'moedalocal'
-            }, {
-              type: 'line',
-              label: 'Em % PIB',
-              data: pib,
-              borderColor: 'rgba(0, 0, 0, 1)',
-              borderWidth: 1,
-              yAxisID: 'pib'
-            }],
-            labels: labels
-          },
-          options: {
-            responsive: true,
-            legend: {
-              display: false,
-            },
-            scales: {
-              moedalocal: {
-                beginAtZero: true,
-                type: 'linear',
-                position: 'left',
-              },
-              pib: {
-                beginAtZero: true,
-                type: 'linear',
-                position: "right",
-                grid: {
-                  display: false
-                },
-              }
             }
-          }
-        });*/
-        const moedalocalG = new Chart($('#moedalocal'), {
-          data: {
-            datasets: [{
-              type: 'bar',
-              label: 'Bar Dataset',
-              data: moedalocal,
-              /*backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)'
-              ],*/
-            }],
-            labels: labels
-          },
-          options: {
-            responsive: true,
-            plugins: {
-              legend: {
-                display: false,
-              }
-            }
-          }
-        });
-        const dolarG = new Chart($('#dolar'), {
-          data: {
-            datasets: [{
-              type: 'bar',
-              label: 'Bar Dataset',
-              data: dolar,
-              /*backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)'
-              ],*/
-            }],
-            labels: labels
-          },
-          options: {
-            responsive: true,
-            plugins: {
-              legend: {
-                display: false,
-              }
-            }
-          }
-        });
-        const pibG = new Chart($('#pib'), {
-          data: {
-            datasets: [{
-              type: 'bar',
-              label: 'Bar Dataset',
-              data: pib,
-              /*backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)'
-              ],*/
-            }],
-            labels: labels
-          },
-          options: {
-            responsive: true,
-            plugins: {
-              legend: {
-                display: false,
-              }
-            }
-          }
-        });
-        const percapitaldolarG = new Chart($('#percapitaldolar'), {
-          data: {
-            datasets: [{
-              type: 'bar',
-              label: 'Bar Dataset',
-              data: percapitaldolar,
-              /*backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)'
-              ],*/
-            }],
-            labels: labels
-          },
-          options: {
-            responsive: true,
-            plugins: {
-              legend: {
-                display: false,
-              }
-            }
-          }
-        });
-        const governoG = new Chart($('#governo'), {
-          data: {
-            datasets: [{
-              type: 'bar',
-              label: 'Bar Dataset',
-              data: governo,
-              /*backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)'
-              ],*/
-            }],
-            labels: labels
-          },
-          options: {
-            responsive: true,
-            plugins: {
-              legend: {
-                display: false,
-              }
-            }
-          }
-        });
+          });*/
+          if ($change == 1) {
+            //console.log('moedalocalG != null');
+            //moedalocalG.destroy();
+            $("canvas#moedalocal").remove();
+            $("div.moedalocalL").append('<canvas id="moedalocal"></canvas>');
 
-      }
+            $("canvas#dolar").remove();
+            $("div.dolarL").append('<canvas id="dolar"></canvas>');
+
+            $("canvas#pib").remove();
+            $("div.pibL").append('<canvas id="pib"></canvas>');
+
+            $("canvas#percapitaldolar").remove();
+            $("div.percapitaldolarL").append('<canvas id="percapitaldolar"></canvas>');
+
+            $("canvas#governo").remove();
+            $("div.governoL").append('<canvas id="governo"></canvas>');
+
+          }
+          const moedalocalG = new Chart($('#moedalocal'), {
+            data: {
+              datasets: [{
+                type: 'bar',
+                label: 'Bar Dataset',
+                data: moedalocal,
+              }],
+              labels: labels
+            },
+            options: {
+              responsive: true,
+              plugins: {
+                legend: {
+                  display: false,
+                }
+              }
+            }
+          });
+          const dolarG = new Chart($('#dolar'), {
+            data: {
+              datasets: [{
+                type: 'bar',
+                label: 'Bar Dataset',
+                data: dolar,
+              }],
+              labels: labels
+            },
+            options: {
+              responsive: true,
+              plugins: {
+                legend: {
+                  display: false,
+                }
+              }
+            }
+          });
+          const pibG = new Chart($('#pib'), {
+            data: {
+              datasets: [{
+                type: 'bar',
+                label: 'Bar Dataset',
+                data: pib,
+              }],
+              labels: labels
+            },
+            options: {
+              responsive: true,
+              plugins: {
+                legend: {
+                  display: false,
+                }
+              }
+            }
+          });
+          const percapitaldolarG = new Chart($('#percapitaldolar'), {
+            data: {
+              datasets: [{
+                type: 'bar',
+                label: 'Bar Dataset',
+                data: percapitaldolar,
+              }],
+              labels: labels
+            },
+            options: {
+              responsive: true,
+              plugins: {
+                legend: {
+                  display: false,
+                }
+              }
+            }
+          });
+          const governoG = new Chart($('#governo'), {
+            data: {
+              datasets: [{
+                type: 'bar',
+                label: 'Bar Dataset',
+                data: governo,
+              }],
+              labels: labels
+            },
+            options: {
+              responsive: true,
+              plugins: {
+                legend: {
+                  display: false,
+                }
+              }
+            }
+          });
+        }
+      });
+    };
+    gastosMilitares('assets/planilhas/gastos-militares-brasil.xml', 0);
+
+    $('#countryAll').on('change', function() {
+      var $this = $(this).val();
+      gastosMilitares('assets/planilhas/gastos-militares-' + $this + '.xml', 1);
+      return false;
     });
 
     $.ajax({
@@ -583,7 +600,7 @@
         console.log(countryAll.sort());
         $.each(countryAll.sort(), function(index, value) {
           let act = value == 'Brasil' ? 'selected' : '';
-          $('#countryAll').append('<option ' + act + '>' + value + '</option>');
+          $('#countryAll').append('<option ' + act + ' value="' + removeAccents(value.toLowerCase()) + '">' + value + '</option>');
         });
 
       }
