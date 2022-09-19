@@ -95,7 +95,7 @@
           <div class="box-menu">
             <ul>
               <li>
-                <a href="">
+                <a href="pre-home.html">
                   <svg class="icon">
                     <use xlink:href="assets/img/icons.svg#info"></use>
                   </svg><span>Apresentação</span>
@@ -116,7 +116,7 @@
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="base-industrial-de-defesa.html">
                   <svg class="icon">
                     <use xlink:href="assets/img/icons.svg#shield"></use>
                   </svg><span>Indústria de Defesa</span>
@@ -158,7 +158,7 @@
               <h1>Base Industrial de Defesa</h1>
               <!-- btns-box -->
               <div class="btns-box">
-                <a href="#" class="down text">
+                <a href="assets/planilhas/gastos-militares.xlsx" download class="down text">
                   <svg class="icon">
                     <use xlink:href="assets/img/icons.svg#download"></use>
                   </svg> Arquivos
@@ -184,7 +184,9 @@
                 <!-- list-box -->
                 <div class="list-box two mtop-35">
                   <div class="box country-name transparent">
-                    <div class="avatar"></div>
+                    <div class="avatar">
+                      <img src="assets/images/bandeira-brasil.png" alt="">
+                    </div>
                     <h1>Brasil</h1>
                   </div>
                   <div class="box country-data transparent">
@@ -207,7 +209,7 @@
                       </h3>
                       <!-- btns-box -->
                       <div class="btns-box">
-                        <a href="#" class="down">
+                        <a href="assets/planilhas/gastos-militares.xlsx" download class="down">
                           <svg class="icon">
                             <use xlink:href="assets/img/icons.svg#download"></use>
                           </svg>
@@ -228,7 +230,7 @@
                       </h3>
                       <!-- btns-box -->
                       <div class="btns-box">
-                        <a href="#" class="down">
+                        <a href="assets/planilhas/gastos-militares.xlsx" download class="down">
                           <svg class="icon">
                             <use xlink:href="assets/img/icons.svg#download"></use>
                           </svg>
@@ -249,7 +251,7 @@
                       </h3>
                       <!-- btns-box -->
                       <div class="btns-box">
-                        <a href="#" class="down">
+                        <a href="assets/planilhas/gastos-militares.xlsx" download class="down">
                           <svg class="icon">
                             <use xlink:href="assets/img/icons.svg#download"></use>
                           </svg>
@@ -270,7 +272,7 @@
                       </h3>
                       <!-- btns-box -->
                       <div class="btns-box">
-                        <a href="#" class="down">
+                        <a href="assets/planilhas/gastos-militares.xlsx" download class="down">
                           <svg class="icon">
                             <use xlink:href="assets/img/icons.svg#download"></use>
                           </svg>
@@ -291,7 +293,7 @@
                       </h3>
                       <!-- btns-box -->
                       <div class="btns-box">
-                        <a href="#" class="down">
+                        <a href="assets/planilhas/gastos-militares.xlsx" download class="down">
                           <svg class="icon">
                             <use xlink:href="assets/img/icons.svg#download"></use>
                           </svg>
@@ -395,12 +397,12 @@
             $count++;
           });
 
-          console.log(labels);
-          console.log(moedalocal);
-          console.log(dolar);
-          console.log(pib);
-          console.log(percapitaldolar);
-          console.log(governo);
+          // console.log(labels);
+          // console.log(moedalocal);
+          // console.log(dolar);
+          // console.log(pib);
+          // console.log(percapitaldolar);
+          // console.log(governo);
 
 
           /*const myChart = new Chart($('#myChart'), {
@@ -551,6 +553,9 @@
               }
             }
           });
+          var lastmoedalocal = moedalocal[moedalocal.length - 1];
+          $('.country-data .val').html('R$ ' + parseInt(lastmoedalocal).toLocaleString());
+
         }
       });
     };
@@ -561,6 +566,7 @@
       var $name = $(this).find(":selected").text();
       gastosMilitares('assets/planilhas/gastos-militares-' + $this + '.xml', 1);
       $('.country-name h1').html($name);
+      $('.country-name .avatar img').attr('src', 'assets/images/bandeira-' + $this + '.png');
       return false;
     });
 
@@ -599,7 +605,7 @@
           }
           numb++;
         });
-        console.log(countryAll.sort());
+        //console.log(countryAll.sort());
         $.each(countryAll.sort(), function(index, value) {
           let act = value == 'Brasil' ? 'selected' : '';
           $('#countryAll').append('<option ' + act + ' value="' + removeAccents(value.toLowerCase()) + '">' + value + '</option>');
