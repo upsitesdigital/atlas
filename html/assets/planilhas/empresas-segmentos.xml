@@ -1,0 +1,1637 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>bruno lobato</Author>
+  <LastAuthor>bruno lobato</LastAuthor>
+  <Created>2022-09-08T12:08:46Z</Created>
+  <LastSaved>2022-09-26T18:01:05Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11580</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hiperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s70" ss:Parent="s62">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s71" ss:Parent="s62">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s73">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s76" ss:Parent="s62">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s78" ss:Parent="s62">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s80" ss:Parent="s62">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s81" ss:Parent="s62">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Planilha1">
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="87" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="71.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="350.25"/>
+   <Column ss:Width="61.5" ss:Span="8"/>
+   <Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="252"/>
+   <Column ss:AutoFitWidth="0" ss:Width="204.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="294"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Aeroterra</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">http://www.aeroterra.com/a-perfil.htm</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Alutechnik</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">http://www.alutechnik.com.ar/services.html</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Já reallizou trabalhos para a área de Defesa: tanques de combustível para aeronaves, portas e escotilhas para embarcações e conjuntos para unidades TAM</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Astillero Río Santiago </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.astillero.gba.gov.ar/"><Data
+      ss:Type="String">http://www.astillero.gba.gov.ar/</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Aviodinamica SRL </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.aviodinamica.com/"><Data
+      ss:Type="String">http://www.aviodinamica.com/</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Bersa</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.bersa.com.ar/index.html"><Data
+      ss:Type="String">http://www.bersa.com.ar/index.html</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Cicare S.A.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.cicare.com.ar/index.html"><Data
+      ss:Type="String">http://www.cicare.com.ar/index.html</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Desenho do Helicóptero CH-14</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">CODESUR</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.codesur.net/pt"><Data
+      ss:Type="String">http://www.codesur.net/pt</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Informe IDS</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Combustibles Nucleares (CONUAR – EC)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.conuar.com/"><Data ss:Type="String">http://www.conuar.com/</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Desenvolve elemento combustível fornecido à INVAP</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Complejo Industrial y Naval Argentino (CINAR)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.tandanor.com.ar/index.php"><Data
+      ss:Type="String">http://www.tandanor.com.ar/index.php</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SITDEF 2011</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Dirección General de Fabricaciones Militares (DGFM)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.fm.gob.ar/"><Data ss:Type="String">http://www.fm.gob.ar/</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SITDEF 2011</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Dupont</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.dupont.com.ar/corporate-functions/our-company/global-locations.html"><Data
+      ss:Type="String">http://www.dupont.com.ar/corporate-functions/our-company/global-locations.html</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Empresa Argentina de Soluciones Satelitales Sociedad Anónima (ARSAT)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.arsat.com.ar/web/"><Data
+      ss:Type="String">http://www.arsat.com.ar/web/</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Fábrica Argentina de Aviones SA (FAdeA)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="https://www.fadeasa.com.ar/fadea/index.php"><Data
+      ss:Type="String">https://www.fadeasa.com.ar/fadea/index.php</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SITDEF 2011</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Fabricación de Aleaciones Especiales (FAE) </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.cnea.gov.ar/node/119"><Data
+      ss:Type="String">http://www.cnea.gov.ar/node/119</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Subsidiária da Conuar. Produz barras de zircaloy (única na AL)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Fundas Argentinas S.R.L.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://houstonfundas.com/"><Data
+      ss:Type="String">http://houstonfundas.com/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">INVAP</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.invap.com.ar/es/"><Data
+      ss:Type="String">http://www.invap.com.ar/es/</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">SITDEF 2011</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Mecatrol</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.mecatrol.com.ar/#!portfolio/defensa.html"><Data
+      ss:Type="String">http://www.mecatrol.com.ar/#!portfolio/defensa.html</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Nostromo Defensa</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Produz VANTs. Pode ter encerrado as atividades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Sabado Ursi S.A. </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.sabadoursi.com.ar/"><Data
+      ss:Type="String">http://www.sabadoursi.com.ar/</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Sastrería Militar</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://sastreriamilitar.com.ar/"><Data
+      ss:Type="String">http://sastreriamilitar.com.ar/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Vicla</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.vicla.com.ar/productos-militar.html"><Data
+      ss:Type="String">http://www.vicla.com.ar/productos-militar.html</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Bolívia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Fábrica Boliviana de Municiones</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://cofadena.gob.bo/FBM.php"><Data
+      ss:Type="String">http://cofadena.gob.bo/FBM.php</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Bolívia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Fábrica Nacional de Explosivos y Accesorios (Maxam Fanexa)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="https://www.maxam.net/es/civil_explosives/bolivia"><Data
+      ss:Type="String">https://www.maxam.net/es/civil_explosives/bolivia</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Chile</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Aerosertec Chile</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.aerosertec-chile.com/grupoaerosertec.html"><Data
+      ss:Type="String">http://www.aerosertec-chile.com/grupoaerosertec.html</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">FIDAE 2016</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Chile</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Astilleros y Maestranzas de la Armada (ASMAR)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.asmar.cl/"><Data ss:Type="String">www.asmar.cl</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Chile</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">CK Equipamientos Aeronáuticos (CKSA)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.cksa.cl/"><Data ss:Type="String">www.cksa.cl</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Chile</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Desarrollo de Tecnología y Sistemas Limitada (DTS)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.dts.cl/"><Data ss:Type="String">www.dts.cl</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Chile</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Desarrollos de Automatización S.A. (DESA)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.desachile.cl/empresa.html"><Data
+      ss:Type="String">www.desachile.cl/empresa.html</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Chile</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Dymeq Ltd</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s80" ss:HRef="http://www.dymeq.com/#nosotros"><Data
+      ss:Type="String">http://www.dymeq.com/#nosotros</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Chile</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Empresa Nacional de Aeronáutica de Chile (ENAER)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.enaer.cl/"><Data ss:Type="String">http://www.enaer.cl/</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Chile</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Fábricas y Maestranzas del Ejército (FAMAE)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.famae.cl/"><Data ss:Type="String">http://www.famae.cl/</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Chile</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Innervycs S.A.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.innervycs.com/"><Data
+      ss:Type="String">http://www.innervycs.com/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">FIDAE 2016</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Chile</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Linktronic</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.linktronic.com/"><Data
+      ss:Type="String">http://www.linktronic.com/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Chile</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">RMS S.A.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.rms.co.cl/"><Data ss:Type="String">www.rms.co.cl</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Chile</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Sistemas de Defensa Limitada (SISDEF)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.sisdef.cl/defensa/"><Data
+      ss:Type="String">http://www.sisdef.cl/defensa/</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Andcom Soluciones Integrales</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.andcom.com.co/"><Data
+      ss:Type="String">http://www.andcom.com.co/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Antares IAC</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.antares-iac.com/"><Data
+      ss:Type="String">http://www.antares-iac.com/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Armor International</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://armorinternational.com/en/home/"><Data
+      ss:Type="String">http://armorinternational.com/en/home/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Automatiser S.A.S</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://automatiser.co/"><Data ss:Type="String">http://automatiser.co/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">ACOPAER</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Compañia Internacional de Mantenimiento</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://cima-co.com/mantenimiento_aeronautico/"><Data
+      ss:Type="String">http://cima-co.com/mantenimiento_aeronautico/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">ACOPAER</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Corporación de Alta Tecnología (Codaltec)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.codaltec.com/"><Data
+      ss:Type="String">http://www.codaltec.com/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Corporación de Ciencia y Tecnologia para el Desarrollo de la Industria Naval Maritima y Fluvial (Cotecmar)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.cotecmar.com/"><Data
+      ss:Type="String">http://www.cotecmar.com/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Corporación de la Industria Aeronáutica Colombiana (CIAC)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.ciac.gov.co/"><Data ss:Type="String">http://www.ciac.gov.co/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">DERCA</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://derca.com.co/index.html"><Data
+      ss:Type="String">http://derca.com.co/index.html</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Estrategia y Defensa</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://estrategiaydefensa.com/"><Data
+      ss:Type="String">http://estrategiaydefensa.com/</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Granados y Condecoraciones SAS</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80" ss:HRef="http://granadosycondecoraciones.com/"><Data
+      ss:Type="String">http://granadosycondecoraciones.com/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expodefensa Bogotá 2015</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Global Rotor S.A.S</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80" ss:HRef="http://www.globalrotor.com/"><Data
+      ss:Type="String">http://www.globalrotor.com/</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Industria Militar Colombiana (Indumil)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s80" ss:HRef="https://www.indumil.gov.co/"><Data
+      ss:Type="String">https://www.indumil.gov.co/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Expodefensa Bogotá 2015</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Industrias Errege</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80" ss:HRef="http://www.inderrege.com/"><Data
+      ss:Type="String">http://www.inderrege.com/</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Integrated Engineering Services S.A.S</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80" ss:HRef="http://www.ies-col.com/ies.html"><Data
+      ss:Type="String">http://www.ies-col.com/ies.html</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ACOPAER</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ISBI</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s80" ss:HRef="http://www.isbi.us/quienes.htm"><Data
+      ss:Type="String">http://www.isbi.us/quienes.htm</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Blindagem de viaturas e aeronaves militares.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Israel Aerspace Industries LTD.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Sucursal colombiana</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Kirvit Technologies</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80" ss:HRef="https://www.secad.mil.co/visita-la-empresa-de-simuladores-kirvit"><Data
+      ss:Type="String">https://www.secad.mil.co/visita-la-empresa-de-simuladores-kirvit</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Manufacturas Delmyp</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80" ss:HRef="https://www.delmyp.com.co/military_line.htm"><Data
+      ss:Type="String">https://www.delmyp.com.co/military_line.htm</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Miguel Caballero</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80" ss:HRef="http://miguelcaballero.com/s33/"><Data
+      ss:Type="String">http://miguelcaballero.com/s33/</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Precisión Aereo SAS</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s80" ss:HRef="http://www.precisionaereo.com/index.html"><Data
+      ss:Type="String">http://www.precisionaereo.com/index.html</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Expodefensa Bogotá 2015</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Thor S.A.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.thorint.com/thorintnewsite/"><Data
+      ss:Type="String">http://www.thorint.com/thorintnewsite/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Colômbia</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Universal de Metales S.A.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">http://universaldemetalesas.com/</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Serviços de reposição e manutenção.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Equador</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Centro de Investigaciones Científicas y Tecnológicas del Ejército (CICTE)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">http://cicte.espe.edu.ec/</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Equador</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Astilleros Navales Ecuatorianos (ASTINAVE EP)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">www.astinave.com.ec</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Equador</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Dirección de la Industria Aeronáutica de la Fuerza Aérea Ecuatoriana (DIAF)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">http://diaf.gob.ec/</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Congrega três Centros de Mantenimiento: CEMA; CEMEFA e CIMAM.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Equador</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Fabrilfame S.A.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">http://www.fabrilfame.com/#</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Equador</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Holding Dine S.A.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">http://2063.ec.all.biz/</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Equador</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Santa Bárbara EP</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">http://www.santabarbara.gob.ec/la-empresa-2/</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Paraguai</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Fábrica de Explosivos y Municiones (DIMABEL)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.dimabel.mil.py/index.php/institucional/fabrica-de-explosivos-y-municiones"><Data
+      ss:Type="String">http://www.dimabel.mil.py/index.php/institucional/fabrica-de-explosivos-y-municiones</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Caddin Equipos Militares </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.caddin.com/catalogo/index.html"><Data
+      ss:Type="String">http://www.caddin.com/catalogo/index.html</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Centro de Mantenimiento de Blindados del Ejército (CEMABLIN)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Diseños Casanave Corporation SAC </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">www.discasanave.com</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Duke Logistic </Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Fabrica de Armas y Municiones del Ejercito (FAME S.A.C)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">http://www.famesac.com/</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">FAMESA Explosivos</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.famesa.com.pe/home.htm"><Data
+      ss:Type="String">http://www.famesa.com.pe/home.htm</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Helicentro Perú</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://helicentroperu.com.pe/"><Data
+      ss:Type="String">http://helicentroperu.com.pe/</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">JADAR SRL</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.jadar.com.pe/Fuerza_Aerea/index.php"><Data
+      ss:Type="String">http://www.jadar.com.pe/Fuerza_Aerea/index.php</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">SELEC Perú</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Seman Perú SAC</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">http://www.seman.com.pe/</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Servicio de Material de Guerra de la FAP (SEMAG)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.semag.com.pe/"><Data
+      ss:Type="String">www.semag.com.pe</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Servicios Industriales de la Marina (SIMA)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">http://www.sima.com.pe/default.asp</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Uruguai</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Aeromarine</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://www.aeromarine.com.uy/"><Data
+      ss:Type="String">http://www.aeromarine.com.uy/</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Uruguai</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Servicio de Construcciones Reparaciones y Armamento de la Armada (SCRA)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80" ss:HRef="http://www.armada.mil.uy/Pagina/institucion/dimat/scra.html#1"><Data
+      ss:Type="String">http://www.armada.mil.uy/Pagina/institucion/dimat/scra.html#1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Uruguai</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Servicio de Mantenimiento de la FAU</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Uruguai</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Servicio de Material y Armamento del Ejército</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76" ss:HRef="http://cge4.ejercito.mil.uy/cal/sma/index.htm"><Data
+      ss:Type="String">http://cge4.ejercito.mil.uy/cal/sma/index.htm</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Vinculada à Direccion General de Material Naval da Armada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Venezuela</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Compañía Anónima Venezolana de Industrias Militares (CAVIM)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">www.cavim.com.ve</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Venezuela</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Centro de Investigación y Desarrollo Aeroespacial (CIDAE)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Anuário América Latina - Grupo Edefa</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Venezuela</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Centro Nacional de Repotenciación de Vehículos Pesados (CENARECA)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Venezuela</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Diques y Astilleros Nacionales C.A. (Dianca)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">http://www.dianca.gob.ve/site/</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Venezuela</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Empresa Mixta Socialista de Vehículos Venezolanos S.A. (EMSOVEN)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">http://emsoven.blogspot.com.br/</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Está constituida entre la Compañía Anónima Venezolana de Industrias Militares (CAVIM) y por la empresa, Centro Nacional de Repotenciación, C.A. (CENARECA).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Venezuela</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Unidad Naval Coordinadora de los Servicios de Carenado de la Armada (UCOCAR)</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Jane's</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.31496062000000002"/>
+    <Footer x:Margin="0.31496062000000002"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.511811024"
+     x:Right="0.511811024" x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>63</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>87</ActiveRow>
+     <RangeSelection>R88:R98</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
