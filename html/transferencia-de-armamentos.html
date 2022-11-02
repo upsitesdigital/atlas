@@ -10,8 +10,9 @@
 
 
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="//cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/4.1.0/css/fixedColumns.semanticui.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
-  <!-- link rel="stylesheet" href="assets/css/main.min.css" -->
   <link rel="shortcut icon" href="favicon.ico">
 
   <meta name="description" content="">
@@ -107,7 +108,7 @@
                   </svg><span>Página Inicial</span>
                 </a>
               </li>
-              <li class="act">
+              <li>
                 <a href="analise-por-pais.html">
                   <svg class="icon">
                     <use xlink:href="assets/img/icons.svg#globe"></use>
@@ -138,7 +139,7 @@
                   </svg><span>Operações de Paz</span>
                 </a>
               </li>
-              <li>
+              <li class="act">
                 <a href="transferencia-de-armamentos.html">
                   <svg class="icon">
                     <use xlink:href="assets/img/icons.svg#crosshair"></use>
@@ -154,17 +155,18 @@
           <div class="product">
             <!-- title -->
             <div class="title">
-              <h1>Análise por País</h1>
+              <h1>Transferência de Armamentos</h1>
               <div class="filter-nation">
                 <label for="">Selecionar país</label>
                 <select name="" id="countryAll">
+                  <option>Brasil</option>
                 </select>
               </div>
             </div>
             <!-- end:title -->
             <!-- subtitle -->
             <div class="subtitle">
-              <h2>Base Industrial de Defesa
+              <h2>Resumo Geral Importações
                 <svg class="icon">
                   <use xlink:href="assets/img/icons.svg#info"></use>
                 </svg>
@@ -209,6 +211,98 @@
 
             <!-- list-box -->
             <div class="list-box four">
+              <div class="box statistics"><span>615</span>
+                <h3>Veículos blindados</h3>
+              </div>
+              <div class="box statistics"><span>1248</span>
+                <h3>Aeronaves</h3>
+              </div>
+              <div class="box statistics"><span>47</span>
+                <h3>Artilharia</h3>
+              </div>
+              <div class="box statistics"><span>264</span>
+                <h3>Mísseis</h3>
+              </div>
+              <div class="box statistics"><span>549</span>
+                <h3>Navios</h3>
+              </div>
+              <div class="box statistics"><span>158</span>
+                <h3>Motores</h3>
+              </div>
+              <div class="box statistics"><span>272</span>
+                <h3>Sensores</h3>
+              </div>
+              <div class="box statistics"><span>122</span>
+                <h3>Sistemas de Defesa Aérea </h3>
+              </div>
+              <div class="box statistics"><span>42</span>
+                <h3>Outros</h3>
+              </div>
+            </div>
+            <!-- list-box -->
+            <hr>
+            <!-- subtitle -->
+            <div class="subtitle">
+              <h2>Resumo Geral Exportações
+                <svg class="icon">
+                  <use xlink:href="assets/img/icons.svg#info"></use>
+                </svg>
+              </h2>
+              <!-- btns-box -->
+              <div class="btns-box">
+                <a href="#" class="down">
+                  <svg class="icon">
+                  <use xlink:href="assets/img/icons.svg#download"></use>
+                </svg>
+                </a>
+                <div class="share">
+                  <svg class="icon">
+                    <use xlink:href="assets/img/icons.svg#share"></use>
+                  </svg>
+                  <div class="div"></div>
+                  <svg class="icon iconfat">
+                    <use xlink:href="assets/img/icons.svg#chevron"></use>
+                  </svg>
+                  <div class="list-share">
+                    <a href="#">
+                      <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#whatsapp"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- end:btns-box -->
+            </div>
+            <!-- end:subtitle -->
+
+            <!-- list-box -->
+            <div class="list-box four">
+              <div class="box statistics"><span>13</span>
+                <h3>Veículos blindados</h3>
+              </div>
+              <div class="box statistics"><span>855</span>
+                <h3>Aeronaves</h3>
+              </div>
+              <div class="box statistics"><span>88</span>
+                <h3>Artilharia</h3>
+              </div>
+              <div class="box statistics"><span>27</span>
+                <h3>Mísseis</h3>
+              </div>
+              <div class="box statistics"><span>11</span>
+                <h3>Navios</h3>
+              </div>
             </div>
             <!-- list-box -->
 
@@ -216,14 +310,14 @@
             <div class="list-box list-graphics two mtop-55">
               <div class="box graphic">
                 <div class="header">
-                  <h3>Gastos Militares
+                  <h3>Importações
                     <svg class="icon">
                     <use xlink:href="assets/img/icons.svg#info"></use>
                   </svg>
                   </h3>
                   <!-- btns-box -->
                   <div class="btns-box">
-                    <a href="assets/planilhas/gastos-militares.xlsx" download class="down">
+                    <a href="#" download class="down">
                       <svg class="icon">
                       <use xlink:href="assets/img/icons.svg#download"></use>
                     </svg>
@@ -257,19 +351,13 @@
                   </div>
                   <!-- end:btns-box -->
                 </div>
-                <!-- div class="filter">
-                  <label for="">Período</label>
-                  <input type="text" name="" class="init">
-                  <span class="div"></span>
-                  <input type="text" name="" class="end">
-                </div -->
-                <div class="graphics allmoedalocalL">
-                  <canvas id="allmoedalocal"></canvas>
+                <div class="graphics importL" style="height: 490px;">
+                  <canvas id="import"></canvas>
                 </div>
               </div>
               <div class="box graphic">
                 <div class="header">
-                  <h3>Operações de Paz
+                  <h3>Exportações
                     <svg class="icon">
                     <use xlink:href="assets/img/icons.svg#info"></use>
                   </svg>
@@ -310,52 +398,10 @@
                   </div>
                   <!-- end:btns-box -->
                 </div>
-                <!-- div class="filter center">
-                  <label for="">&nbsp;</label>
-                  <select name="" id="">
-                    <option value="ar">Argentina</option>
-                  </select>
-                </div -->
-                <div class="graphics operacaoPazL">
-                  <canvas id="operacaoPaz"></canvas>
+                <div class="graphics exportL" style="height: 490px;">
+                  <canvas id="export"></canvas>
                 </div>
               </div>
-              <!-- div class="box graphic">
-                <div class="header">
-                  <h3>Transferência de Armamentos
-                    <svg class="icon">
-                    <use xlink:href="assets/img/icons.svg#info"></use>
-                  </svg>
-                  </h3>
-                  <!-- btns-box ->
-                  <div class="btns-box">
-                    <a href="#" class="down">
-                      <svg class="icon">
-                      <use xlink:href="assets/img/icons.svg#download"></use>
-                    </svg>
-                    </a>
-                    <a href="#" class="share">
-                      <svg class="icon">
-                      <use xlink:href="assets/img/icons.svg#share"></use>
-                    </svg>
-                      <div class="div"></div>
-                      <svg class="icon iconfat">
-                      <use xlink:href="assets/img/icons.svg#chevron"></use>
-                    </svg>
-                    </a>
-                  </div>
-                  <!-- end:btns-box ->
-                </div>
-                <div class="filter">
-                  <label for="">Período</label>
-                  <input type="text" name="" class="init">
-                  <span class="div"></span>
-                  <input type="text" name="" class="end">
-                </div>
-                <div class="graphics">
-                  <canvas id="myChart3"></canvas>
-                </div>
-              </div -->
             </div>
             <!-- list-box -->
           </div>
@@ -372,41 +418,129 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/fixedcolumns/4.1.0/js/dataTables.fixedColumns.min.js"></script>
   <script src="assets/js/bundle.js"></script>
-  <script src="assets/js/functions.js"></script>
+
   <!-- script src="assets/js/bundle.min.js"></script -->
   <script>
-    const myChart3 = new Chart($('#myChart3'), {
+    const importG = new Chart($('#import'), {
+      type: 'bar',
       data: {
+        labels: ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020'],
         datasets: [{
-          type: 'line',
-          label: 'Line Dataset',
-          data: [4000, 18000, 9000, 7000],
-          borderColor: 'rgba(0, 0, 0, 1)',
-          borderWidth: 1,
-          backgroundColor: 'red'
+          label: 'Aeronaves',
+          backgroundColor: "#F28E2B",
+          data: [3, 138, 125, 113, 24, 86, 74, 153, 109, 89, 72, 62, 42, 30, 45, 83],
+        }, {
+          label: 'Veículos blindados',
+          backgroundColor: "#4E79A7",
+          data: [0, 0, 2, 1, 67, 138, 173, 25, 3, 36, 20, 25, 23, 56, 27, 21],
+        }, {
+          label: 'Artilharia',
+          backgroundColor: "#59A14F",
+          data: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 18, 26, 0],
+        }, {
+          label: 'Mísseis',
+          backgroundColor: "#B79A2F",
+          data: [1, 20, 20, 20, 3, 55, 40, 30, 7, 13, 27, 6, 1, 5, 10, 7],
+        }, {
+          label: 'Navios',
+          backgroundColor: "#BBB1AD",
+          data: [170, 0, 20, 0, 39, 19, 0, 77, 38, 0, 40, 0, 0, 136, 0, 10],
+        }, {
+          label: 'Motores',
+          backgroundColor: "#A1CBE8",
+          data: [6, 14, 14, 21, 10, 5, 5, 17, 10, 6, 1, 0, 9, 3, 22, 14],
+        }, {
+          label: 'Sensores',
+          backgroundColor: "#E1585A",
+          data: [43, 6, 6, 24, 12, 7, 14, 25, 20, 13, 12, 11, 15, 15, 32, 18],
+        }, {
+          label: 'Sistemas de Defesa Aérea ',
+          backgroundColor: "#8DD17E",
+          data: [0, 0, 0, 0, 0, 0, 0, 0, 36, 47, 40, 0, 0, 0, 0, 0],
+        }, {
+          label: 'Outros',
+          backgroundColor: "#FF9E9B",
+          data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 6, 6, 6, 6],
         }],
-        labels: ['January', 'February', 'March', 'April']
       },
       options: {
-        responsive: true,
-        plugins: {
-          legend: {
-            display: false,
+        tooltips: {
+          displayColors: true,
+          callbacks: {
+            mode: 'x',
+          },
+        },
+        scales: {
+          x: {
+            stacked: true
+          },
+          y: {
+            stacked: true
           }
-        }
+        },
+        responsive: true,
+        maintainAspectRatio: false,
+        legend: {
+          position: 'bottom'
+        },
       }
     });
-    gastosMilitares('assets/planilhas/gastos-militares-brasil.xml', 0);
-    armasImportacoes('assets/planilhas/armas-importacoes-brasil.xml', 0);
-    operacaoPaz('assets/planilhas/operacao-paz-brasil.xml', 0);
-    $('#countryAll').on('change', function() {
-      var $this = $(this).val();
-      var $name = $(this).find(":selected").text();
-      armasImportacoes('assets/planilhas/armas-importacoes-' + $this + '.xml', 1);
-      gastosMilitares('assets/planilhas/gastos-militares-' + $this + '.xml', 1);
-      operacaoPaz('assets/planilhas/operacao-paz-' + $this + '.xml', 1);
-      return false;
+    const exportG = new Chart($('#export'), {
+      type: 'bar',
+      data: {
+        labels: ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020'],
+        datasets: [{
+          label: 'Aeronaves',
+          backgroundColor: "#F28E2B",
+          data: [1, 44, 53, 92, 33, 126, 31, 32, 26, 20, 18, 106, 26, 93, 10, 145],
+        }, {
+          label: 'Veículos blindados',
+          backgroundColor: "#4E79A7",
+          data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 7, 0, 0],
+        }, {
+          label: 'Artilharia',
+          backgroundColor: "#59A14F",
+          data: [0, 0, 0, 0, 0, 17, 0, 0, 0, 6, 29, 11, 0, 0, 0, 26],
+        }, {
+          label: 'Mísseis',
+          backgroundColor: "#B79A2F",
+          data: [0, 0, 0, 0, 0, 0, 0, 1, 5, 5, 6, 5, 5, 0, 0, 0],
+        }, {
+          label: 'Navios',
+          backgroundColor: "#BBB1AD",
+          data: [0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        }],
+      },
+      options: {
+        tooltips: {
+          displayColors: true,
+          callbacks: {
+            mode: 'x',
+          },
+        },
+        scales: {
+          x: {
+            stacked: true
+          },
+          y: {
+            stacked: true
+          }
+        },
+        responsive: true,
+        maintainAspectRatio: false,
+        legend: {
+          position: 'bottom'
+        },
+      }
+    });
+    $('#table').DataTable({
+      searching: false,
+      scrollX: true,
+      scrollCollapse: true,
+      fixedColumns: true
     });
   </script>
 

@@ -1,0 +1,2176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--[if IE]><![endif]-->
+  <title>Atlas</title>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="//cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/4.1.0/css/fixedColumns.semanticui.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <meta name="description" content="">
+  <meta name="robots" content="all">
+  <meta property="og:title" content="Template">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="Template">
+  <meta property="og:image" content="assets/img/share.jpg">
+
+  <!--[if lt IE 9]><script src="assets/js/vendor/html5shiv.min.js"></script><![endif]-->
+
+</head>
+
+<body class="home">
+
+  <!-- header -->
+  <header id="internal">
+    <div class="container-full">
+      <div class="grid">
+        <div class="item logo">
+          <a href="#">
+            <img src="assets/images/logo_internal.png" alt="">
+          </a>
+        </div>
+        <div class="item">
+          <nav>
+            <ul>
+              <li><a href="#">Quem Somos</a></li>
+              <li><a href="#">Biblioteca Virtual</a></li>
+              <li class="subitem">
+                <a href="#">
+                  Produtos
+                  <svg class="icon">
+                    <use xlink:href="assets/img/icons.svg#chevron"></use>
+                  </svg>
+                </a>
+              </li>
+              <li><a href="#">Projetos</a></li>
+              <li><a href="#">Eventos & Notícias</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="item search">
+          <div class="box">
+            <input type="text" placeholder="Buscar">
+            <button>
+              <svg class="icon">
+                <use xlink:href="assets/img/icons.svg#search"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- end:header -->
+
+  <!-- main -->
+  <main>
+    <div class="container-full">
+      <!-- grid-primary -->
+      <div class="grid-primary">
+        <!-- sidebar -->
+        <div class="sidebar">
+          <div class="top-side">
+            <div class="logo">
+              <a href="#">
+                <img src="assets/images/logo.png" alt="">
+              </a>
+            </div>
+            <a href="#" class="btn-menu">
+              <svg class="icon">
+              <use xlink:href="assets/img/icons.svg#menu"></use>
+            </svg>
+            </a>
+          </div>
+          <div class="box-menu">
+            <ul>
+              <li>
+                <a href="pre-home.html">
+                  <svg class="icon">
+                    <use xlink:href="assets/img/icons.svg#info"></use>
+                  </svg><span>Apresentação</span>
+                </a>
+              </li>
+              <li>
+                <a href="home.html">
+                  <svg class="icon">
+                    <use xlink:href="assets/img/icons.svg#home"></use>
+                  </svg><span>Página Inicial</span>
+                </a>
+              </li>
+              <li>
+                <a href="analise-por-pais.html">
+                  <svg class="icon">
+                    <use xlink:href="assets/img/icons.svg#globe"></use>
+                  </svg><span>Análise por País</span>
+                </a>
+              </li>
+              <li>
+                <a href="base-industrial-de-defesa.html">
+                  <svg class="icon">
+                    <use xlink:href="assets/img/icons.svg#shield"></use>
+                  </svg><span>Indústria de Defesa</span>
+                  <!--svg class="icon rotate90">
+                    <use xlink:href="assets/img/icons.svg#chevron"></use>
+                  </svg-->
+                </a>
+              </li>
+              <li>
+                <a href="gastos-militares.html">
+                  <svg class="icon">
+                    <use xlink:href="assets/img/icons.svg#dollar-sign"></use>
+                  </svg><span>Gastos Militares</span>
+                </a>
+              </li>
+              <li class="act">
+                <a href="operacoes-de-paz.html">
+                  <svg class="icon">
+                    <use xlink:href="assets/img/icons.svg#flag"></use>
+                  </svg><span>Operações de Paz</span>
+                </a>
+              </li>
+              <li>
+                <a href="transferencia-de-armamentos.html">
+                  <svg class="icon">
+                    <use xlink:href="assets/img/icons.svg#crosshair"></use>
+                  </svg><span>Transferência de Armamentos</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end:sidebar -->
+        <!-- content -->
+        <div class="content pbottom-30">
+          <div class="product">
+            <!-- title -->
+            <div class="title">
+              <h1>Operações de Paz</h1>
+              <div class="filter-nation">
+                <label for="">Selecionar país</label>
+                <select name="" id="countryAll">
+                  <option>Brasil</option>
+                </select>
+              </div>
+            </div>
+            <!-- end:title -->
+            <!-- subtitle -->
+            <div class="subtitle">
+              <h2>Resumo Geral
+                <svg class="icon">
+                  <use xlink:href="assets/img/icons.svg#info"></use>
+                </svg>
+              </h2>
+              <!-- btns-box -->
+              <div class="btns-box">
+                <a href="#" class="down">
+                  <svg class="icon">
+                  <use xlink:href="assets/img/icons.svg#download"></use>
+                </svg>
+                </a>
+                <div class="share">
+                  <svg class="icon">
+                    <use xlink:href="assets/img/icons.svg#share"></use>
+                  </svg>
+                  <div class="div"></div>
+                  <svg class="icon iconfat">
+                    <use xlink:href="assets/img/icons.svg#chevron"></use>
+                  </svg>
+                  <div class="list-share">
+                    <a href="#">
+                      <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#whatsapp"></use>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- end:btns-box -->
+            </div>
+            <!-- end:subtitle -->
+
+            <!-- list-box -->
+            <div class="list-box four">
+              <div class="box statistics"><span>22057</span>
+                <h3>Militares</h3>
+              </div>
+              <div class="box statistics"><span>647</span>
+                <h3>Observador</h3>
+              </div>
+              <div class="box statistics"><span>242</span>
+                <h3>Policial</h3>
+              </div>
+              <div class="box statistics"><span>22946</span>
+                <h3>Total de efetivo</h3>
+              </div>
+            </div>
+            <!-- list-box -->
+
+            <!-- list-box -->
+            <div class="list-box list-graphics two mtop-55">
+              <div class="box graphic">
+                <div class="header">
+                  <h3>Homem x Mulher
+                    <svg class="icon">
+                    <use xlink:href="assets/img/icons.svg#info"></use>
+                  </svg>
+                  </h3>
+                  <!-- btns-box -->
+                  <div class="btns-box">
+                    <a href="#" download class="down">
+                      <svg class="icon">
+                      <use xlink:href="assets/img/icons.svg#download"></use>
+                    </svg>
+                    </a>
+                    <div class="share">
+                      <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#share"></use>
+                      </svg>
+                      <div class="div"></div>
+                      <svg class="icon iconfat">
+                        <use xlink:href="assets/img/icons.svg#chevron"></use>
+                      </svg>
+                      <div class="list-share">
+                        <a href="#">
+                          <svg class="icon">
+                            <use xlink:href="assets/img/icons.svg#facebook"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg class="icon">
+                            <use xlink:href="assets/img/icons.svg#twitter"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg class="icon">
+                            <use xlink:href="assets/img/icons.svg#whatsapp"></use>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end:btns-box -->
+                </div>
+                <div class="graphics quantHML">
+                  <canvas id="quantHM"></canvas>
+                </div>
+              </div>
+              <div class="box graphic">
+                <div class="header">
+                  <h3>Total Efetivo
+                    <svg class="icon">
+                    <use xlink:href="assets/img/icons.svg#info"></use>
+                  </svg>
+                  </h3>
+                  <!-- btns-box -->
+                  <div class="btns-box">
+                    <a href="assets/planilhas/operacao-paz.xlsx" download class="down">
+                      <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#download"></use>
+                      </svg>
+                    </a>
+                    <div class="share">
+                      <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#share"></use>
+                      </svg>
+                      <div class="div"></div>
+                      <svg class="icon iconfat">
+                        <use xlink:href="assets/img/icons.svg#chevron"></use>
+                      </svg>
+                      <div class="list-share">
+                        <a href="#">
+                          <svg class="icon">
+                            <use xlink:href="assets/img/icons.svg#facebook"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg class="icon">
+                            <use xlink:href="assets/img/icons.svg#twitter"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg class="icon">
+                            <use xlink:href="assets/img/icons.svg#whatsapp"></use>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end:btns-box -->
+                </div>
+                <div class="graphics totalefetivoL" style="height: 490px;">
+                  <canvas id="totalefetivo"></canvas>
+                </div>
+              </div>
+              <!-- div class="box graphic">
+                <div class="header">
+                  <h3>Transferência de Armamentos
+                    <svg class="icon">
+                    <use xlink:href="assets/img/icons.svg#info"></use>
+                  </svg>
+                  </h3>
+                  <!-- btns-box ->
+                  <div class="btns-box">
+                    <a href="#" class="down">
+                      <svg class="icon">
+                      <use xlink:href="assets/img/icons.svg#download"></use>
+                    </svg>
+                    </a>
+                    <a href="#" class="share">
+                      <svg class="icon">
+                      <use xlink:href="assets/img/icons.svg#share"></use>
+                    </svg>
+                      <div class="div"></div>
+                      <svg class="icon iconfat">
+                      <use xlink:href="assets/img/icons.svg#chevron"></use>
+                    </svg>
+                    </a>
+                  </div>
+                  <!-- end:btns-box ->
+                </div>
+                <div class="filter">
+                  <label for="">Período</label>
+                  <input type="text" name="" class="init">
+                  <span class="div"></span>
+                  <input type="text" name="" class="end">
+                </div>
+                <div class="graphics">
+                  <canvas id="myChart3"></canvas>
+                </div>
+              </div -->
+            </div>
+            <!-- list-box -->
+            <hr>
+            <!-- list-box -->
+            <div class="list-box one">
+              <div class="box table">
+                <table id="table" class="display ui table nowrap">
+                  <thead>
+                    <tr>
+                      <th>Ano</th>
+                      <th>MINUGUA</th>
+                      <th>MINURSO</th>
+                      <th>MONUC</th>
+                      <th>UNAMSIL</th>
+                      <th>UNDOF</th>
+                      <th>UNFICYP</th>
+                      <th>UNIFIL</th>
+                      <th>UNIKOM</th>
+                      <th>UNMEE</th>
+                      <th>UNMIBH</th>
+                      <th>UNMIK</th>
+                      <th>UNMOGIP</th>
+                      <th>UNMOP</th>
+                      <th>UNOMIG</th>
+                      <th>UNTAET</th>
+                      <th>UNTSO</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2001</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2002</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2003</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2004</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2005</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2006</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2007</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2008</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2009</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2010</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2011</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2012</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2013</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2014</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2015</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2016</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2017</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2018</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2019</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="sorting_1 dtfc-fixed-left" style="left: 0px; position: sticky;">2020</td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 1</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 2</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 13</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 10</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 74</p>
+                      </td>
+                      <td>
+                        <p><b style="font-weight: 700;">Observador:</b> 0</p>
+                        <p><b style="font-weight: 700;">Policial:</b> 0</p>
+                        <p><b style="font-weight: 700;">Tropas:</b> 0</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- btns-box -->
+                <div class="btns-box">
+                  <a href="#" class="down">
+                    <svg class="icon">
+                  <use xlink:href="assets/img/icons.svg#download"></use>
+                </svg>
+                  </a>
+                  <div class="share">
+                    <svg class="icon">
+                    <use xlink:href="assets/img/icons.svg#share"></use>
+                  </svg>
+                    <div class="div"></div>
+                    <svg class="icon iconfat">
+                    <use xlink:href="assets/img/icons.svg#chevron"></use>
+                  </svg>
+                    <div class="list-share">
+                      <a href="#">
+                        <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#facebook"></use>
+                      </svg>
+                      </a>
+                      <a href="#">
+                        <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#twitter"></use>
+                      </svg>
+                      </a>
+                      <a href="#">
+                        <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#whatsapp"></use>
+                      </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- end:btns-box -->
+              </div>
+            </div>
+            <!-- list-box -->
+          </div>
+          <div class="footer">
+            <p>©2022 Atlas - GEDES</p>
+          </div>
+        </div>
+        <!-- end:content -->
+      </div>
+      <!-- end:grid-primary -->
+    </div>
+  </main>
+  <!-- end:main -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/fixedcolumns/4.1.0/js/dataTables.fixedColumns.min.js"></script>
+  <script src="assets/js/bundle.js"></script>
+
+  <!-- script src="assets/js/bundle.min.js"></script -->
+  <script>
+    const quantHMG = new Chart($('#quantHM'), {
+      type: 'doughnut',
+      data: {
+        labels: ["Homem", "Mulher"],
+        datasets: [{
+          data: [12336, 173],
+          borderColor: ['#2196f38c', '#f443368c'],
+          backgroundColor: ['#2196f38c', '#f443368c'],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+      }
+    });
+    const totalefetivoG = new Chart($('#totalefetivo'), {
+      type: 'bar',
+      data: {
+        labels: ['2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020'],
+        datasets: [{
+          label: 'Policial',
+          backgroundColor: "#F28E2B",
+          data: [18, 9, 10, 6, 8, 14, 8, 13, 12, 10, 15, 21, 20, 12, 19, 12, 4, 7, 9, 10, 5],
+        }, {
+          label: 'Observador',
+          backgroundColor: "#4E79A7",
+          data: [14, 13, 15, 13, 10, 30, 27, 48, 51, 46, 46, 32, 24, 22, 24, 25, 25, 34, 42, 52, 54],
+        }, {
+          label: 'Militares',
+          backgroundColor: "#59A14F",
+          data: [63, 74, 77, 62, 1349, 1226, 1217, 1217, 1289, 1288, 2057, 2244, 2235, 1809, 1673, 1360, 1276, 912, 218, 212, 199],
+        }],
+      },
+      options: {
+        tooltips: {
+          displayColors: true,
+          callbacks: {
+            mode: 'x',
+          },
+        },
+        scales: {
+          x: {
+            stacked: true
+          },
+          y: {
+            stacked: true
+          }
+        },
+        responsive: true,
+        maintainAspectRatio: false,
+        legend: {
+          position: 'bottom'
+        },
+      }
+    });
+    $('#table').DataTable({
+      searching: false,
+      scrollX: true,
+      scrollCollapse: true,
+      fixedColumns: true
+    });
+  </script>
+
+</body>
+
+</html>
