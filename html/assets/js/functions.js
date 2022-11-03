@@ -375,6 +375,9 @@ $.ajax({
     });
 
     $('#table').DataTable({
+      language: {
+        url: '//cdn.datatables.net/plug-ins/1.12.1/i18n/pt-BR.json'
+      },
       searching: false,
       scrollX: true,
       scrollCollapse: true,

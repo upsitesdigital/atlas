@@ -21,4 +21,11 @@ export default function() {
     return false;
   });
 
+  $(document).on('click', '.toggle a', function() {
+    var $target = $(this).closest('.toggle').find('.content-toggle');
+    $target.slideToggle();
+    return false;
+  });
+
+
 }

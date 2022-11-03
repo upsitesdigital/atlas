@@ -167,9 +167,11 @@
             <!-- subtitle -->
             <div class="subtitle">
               <h2>Resumo Geral
-                <svg class="icon">
-                  <use xlink:href="assets/img/icons.svg#info"></use>
-                </svg>
+                <a href="#" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia">
+                  <svg class="icon">
+                    <use xlink:href="assets/img/icons.svg#info"></use>
+                  </svg>
+                </a>
               </h2>
               <!-- btns-box -->
               <div class="btns-box">
@@ -231,9 +233,11 @@
               <div class="box graphic">
                 <div class="header">
                   <h3>Homem x Mulher
-                    <svg class="icon">
-                    <use xlink:href="assets/img/icons.svg#info"></use>
-                  </svg>
+                    <a href="#" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia">
+                      <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#info"></use>
+                      </svg>
+                    </a>
                   </h3>
                   <!-- btns-box -->
                   <div class="btns-box">
@@ -278,9 +282,11 @@
               <div class="box graphic">
                 <div class="header">
                   <h3>Total Efetivo
-                    <svg class="icon">
-                    <use xlink:href="assets/img/icons.svg#info"></use>
-                  </svg>
+                    <a href="#" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia">
+                      <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#info"></use>
+                      </svg>
+                    </a>
                   </h3>
                   <!-- btns-box -->
                   <div class="btns-box">
@@ -322,42 +328,6 @@
                   <canvas id="totalefetivo"></canvas>
                 </div>
               </div>
-              <!-- div class="box graphic">
-                <div class="header">
-                  <h3>Transferência de Armamentos
-                    <svg class="icon">
-                    <use xlink:href="assets/img/icons.svg#info"></use>
-                  </svg>
-                  </h3>
-                  <!-- btns-box ->
-                  <div class="btns-box">
-                    <a href="#" class="down">
-                      <svg class="icon">
-                      <use xlink:href="assets/img/icons.svg#download"></use>
-                    </svg>
-                    </a>
-                    <a href="#" class="share">
-                      <svg class="icon">
-                      <use xlink:href="assets/img/icons.svg#share"></use>
-                    </svg>
-                      <div class="div"></div>
-                      <svg class="icon iconfat">
-                      <use xlink:href="assets/img/icons.svg#chevron"></use>
-                    </svg>
-                    </a>
-                  </div>
-                  <!-- end:btns-box ->
-                </div>
-                <div class="filter">
-                  <label for="">Período</label>
-                  <input type="text" name="" class="init">
-                  <span class="div"></span>
-                  <input type="text" name="" class="end">
-                </div>
-                <div class="graphics">
-                  <canvas id="myChart3"></canvas>
-                </div>
-              </div -->
             </div>
             <!-- list-box -->
             <hr>
@@ -2164,6 +2134,9 @@
       }
     });
     $('#table').DataTable({
+      language: {
+        url: '//cdn.datatables.net/plug-ins/1.12.1/i18n/pt-BR.json'
+      },
       searching: false,
       scrollX: true,
       scrollCollapse: true,
