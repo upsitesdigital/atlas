@@ -1,0 +1,33 @@
+/*======================================
+  Buttons
+======================================*/
+
+.btn {
+  @include animate($time: 0.3s);
+  @include inline-block($align: middle);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #222222;
+  background: #00CBCA;
+  border-radius: 4px;
+}
+
+@include breakpoint2($min:sm, $max:lg) {
+  .btn {
+    font-size: get-vw-lg(18px);
+    line-height: get-vw-lg(21px);
+    border-radius: get-vw-lg(4px);
+  }
+}
+
+@include breakpoint2($min:'', $max:sm) {
+  .btn {
+    font-size: get-vw-sm(18px);
+    line-height: get-vw-sm(21px);
+    border-radius: get-vw-sm(4px);
+  }
+}

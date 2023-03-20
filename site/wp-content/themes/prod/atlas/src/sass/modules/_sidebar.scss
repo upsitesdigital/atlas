@@ -1,0 +1,253 @@
+/*======================================
+  Sidebar structure
+======================================*/
+
+.small-menu main {
+  .grid-primary {
+    @include columns( $quant: 64px 1fr, $gutter: 0, $align: stretch, $template: 'sidebar content');
+    &>.sidebar {
+      .logo {
+        display: none;
+      }
+      .box-menu {
+        ul {
+          li {
+            a {
+              span {
+                display: none;
+              }
+              .icon.rotate90 {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.sidebar {
+  width: 100%;
+  .top-side {
+    width: 100%;
+    height: 107px;
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    display: inline-block;
+    padding: 0 35px 0 15px;
+    img {
+      width: 102px;
+      height: auto;
+    }
+  }
+  .btn-menu {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: text-top;
+    .icon {
+      width: 100%;
+      height: 100%;
+      fill: transparent;
+      stroke: #1E272E;
+    }
+  }
+  .box-menu {
+    width: 100%;
+    height: calc(100% - 107px);
+    margin: 0 0 0 -13px;
+    padding: 10px 8px;
+    background-color: #FFFFFF;
+    ul {
+      li {
+        padding-top: 12px;
+        &:first-child {
+          padding-top: 0;
+        }
+        a {
+          padding: 12px 7px;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          color: #66716E;
+          display: flex;
+          align-items: start;
+          border-radius: 4px;
+          .icon {
+            width: 16px;
+            height: 16px;
+            fill: transparent;
+            stroke: currentColor;
+            margin: 0 9px;
+            &.rotate90 {
+              transform: rotate(-90deg);
+            }
+          }
+        }
+        &.act {
+          a {
+            color: #222222;
+            background: #F7F7F7;
+            .icon {
+              stroke: #00CBCA;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include breakpoint2($min:sm, $max:lg) {
+  .small-menu main {
+    .grid-primary {
+      @include columns( $quant: get-vw-lg(64px) 1fr, $gutter: 0, $align: stretch, $template: 'sidebar content');
+    }
+  }
+  .sidebar {
+    .top-side {
+      height: get-vw-lg(107px);
+    }
+    .logo {
+      padding: 0 get-vw-lg(35px) 0 get-vw-lg(15px);
+      img {
+        width: get-vw-lg(102px);
+        height: auto;
+      }
+    }
+    .btn-menu {
+      width: get-vw-lg(24px);
+      height: get-vw-lg(24px);
+      margin-top: get-vw-lg(10px);
+    }
+    .box-menu {
+      height: calc(100% - get-vw-lg(107px));
+      margin: 0 0 0 get-vw-lg(-13px);
+      padding: get-vw-lg(10px) get-vw-lg(8px);
+      ul {
+        li {
+          padding-top: get-vw-lg(12px);
+          &:first-child {
+            padding-top: 0;
+          }
+          a {
+            padding: get-vw-lg(12px) get-vw-lg(7px);
+            font-size: get-vw-lg(14px);
+            line-height: get-vw-lg(16px);
+            border-radius: get-vw-lg(4px);
+            .icon {
+              width: get-vw-lg(16px);
+              height: get-vw-lg(16px);
+              margin: 0 get-vw-lg(9px);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include breakpoint2($min:'', $max:sm) {
+  main {
+    .grid-primary {
+      @include columns( $quant: 64px 1fr, $gutter: 0, $align: stretch, $template: 'sidebar content');
+      &>.sidebar {
+        .logo {
+          display: none;
+        }
+        .box-menu {
+          ul {
+            li {
+              a {
+                span {
+                  display: none;
+                }
+                .icon.rotate90 {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.page-template-initial {
+  .atlas-de-defesa-da-america-do-sul {
+    a {
+      color: #222222 !important;
+      background: #F7F7F7;
+      .icon {
+        stroke: #00CBCA !important;
+      }
+    }
+  }
+}
+
+.page-template-analise-por-pais {
+  .analise-por-pais {
+    a {
+      color: #222222 !important;
+      background: #F7F7F7;
+      .icon {
+        stroke: #00CBCA !important;
+      }
+    }
+  }
+}
+
+.page-template-base-industrial-de-defesa {
+  .base-industrial-de-defesa {
+    a {
+      color: #222222 !important;
+      background: #F7F7F7;
+      .icon {
+        stroke: #00CBCA !important;
+      }
+    }
+  }
+}
+
+.page-template-gastos-militares {
+  .gastos-militares {
+    a {
+      color: #222222 !important;
+      background: #F7F7F7;
+      .icon {
+        stroke: #00CBCA !important;
+      }
+    }
+  }
+}
+
+.page-template-operacoes-de-paz {
+  .operacoes-de-paz {
+    a {
+      color: #222222 !important;
+      background: #F7F7F7;
+      .icon {
+        stroke: #00CBCA !important;
+      }
+    }
+  }
+}
+
+.page-template-transferencia-de-armamentos {
+  .transferencia-de-armamentos {
+    a {
+      color: #222222 !important;
+      background: #F7F7F7;
+      .icon {
+        stroke: #00CBCA !important;
+      }
+    }
+  }
+}
