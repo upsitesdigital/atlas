@@ -279,6 +279,56 @@
                   <canvas id="quantHM"></canvas>
                 </div>
               </div>
+
+              <div class="box graphic">
+                <div class="header">
+                  <h3>Operações de Paz
+                    <a href="#" title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia">
+                      <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#info"></use>
+                      </svg>
+                    </a>
+                  </h3>
+                  <!-- btns-box -->
+                  <div class="btns-box">
+                    <a href="assets/planilhas/operacao-paz.xlsx" download class="down">
+                      <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#download"></use>
+                      </svg>
+                    </a>
+                    <div class="share">
+                      <svg class="icon">
+                        <use xlink:href="assets/img/icons.svg#share"></use>
+                      </svg>
+                      <div class="div"></div>
+                      <svg class="icon iconfat">
+                        <use xlink:href="assets/img/icons.svg#chevron"></use>
+                      </svg>
+                      <div class="list-share">
+                        <a href="#">
+                          <svg class="icon">
+                            <use xlink:href="assets/img/icons.svg#facebook"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg class="icon">
+                            <use xlink:href="assets/img/icons.svg#twitter"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg class="icon">
+                            <use xlink:href="assets/img/icons.svg#whatsapp"></use>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end:btns-box -->
+                </div>
+                <div class="graphics operacaoPazL">
+                  <canvas id="operacaoPaz"></canvas>
+                </div>
+              </div>
               <div class="box graphic">
                 <div class="header">
                   <h3>Total Efetivo
@@ -2074,9 +2124,18 @@
   <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/fixedcolumns/4.1.0/js/dataTables.fixedColumns.min.js"></script>
   <script src="assets/js/bundle.js"></script>
+  <script src="assets/js/functions.js"></script>
 
   <!-- script src="assets/js/bundle.min.js"></script -->
   <script>
+    operacaoPaz('assets/planilhas/operacao-paz-brasil.xml', 0);
+    $('#countryAll').on('change', function() {
+      var $this = $(this).val();
+      var $name = $(this).find(":selected").text();
+      operacaoPaz('assets/planilhas/operacao-paz-' + $this + '.xml', 1);
+      return false;
+    });
+
     const quantHMG = new Chart($('#quantHM'), {
       type: 'doughnut',
       data: {

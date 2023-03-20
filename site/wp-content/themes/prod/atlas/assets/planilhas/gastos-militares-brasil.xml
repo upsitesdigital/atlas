@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>bruno lobato</Author>
+  <LastAuthor>bruno lobato</LastAuthor>
+  <Created>2022-09-08T12:08:46Z</Created>
+  <LastSaved>2022-09-08T12:15:37Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11580</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Normal 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64" ss:Parent="s62">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="#,##0;\(#,##0\)"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times" ss:Color="#000000"/>
+   <NumberFormat ss:Format="#,##0;\(#,##0\)"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s62">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s68" ss:Parent="s62">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s69" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s70">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Planilha1">
+  <Table ss:ExpandedColumnCount="21" ss:ExpandedRowCount="11" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="61.5" ss:Span="17"/>
+   <Column ss:Index="19" ss:Width="66" ss:Span="2"/>
+   <Row ss:AutoFitHeight="0"/>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2001</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2002</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2003</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2004</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2005</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2006</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2007</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2008</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2009</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2010</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2011</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2012</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2013</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2014</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2015</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2016</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2017</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2019</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2020</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20753000000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">25682000000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">28224000000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25829000000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">28608000000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">33080000000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">35686000000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">39887000000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">44841000000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">51283000000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">59819000000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">61788000000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">66379000000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">70881000000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">76874200000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">81873500000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">84509000000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">93120100000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">102938300000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">102176700000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">101701400000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16768</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19422</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19681</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">15701</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">16314</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">17651</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18277</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">19711</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">20968</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">22863</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25389</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">24593</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25066</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25202</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25706</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25111</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">23836</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25390</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">27074</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25907</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">25101</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.7000000000000001E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.02</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.9E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.2999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.2999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.2999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1.4E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">64.900000000000006</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">61.7</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">53.8</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">46.2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">53.2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">87.2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">107.7</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">127.3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">132.30000000000001</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">173.7</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">187</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">170.5</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">163.5</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">161.1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">120.4</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">117.5</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">140.80000000000001</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">134.5</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">122.8</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">92.9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">5.3999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4.9000000000000002E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.6999999999999998E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.7999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.7999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.7999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.9E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.9E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4.1000000000000002E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.9E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.7999999999999999E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.6999999999999998E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.5999999999999997E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.5000000000000003E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.5000000000000003E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.4000000000000002E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.6999999999999998E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.9E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.6999999999999998E-2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3.2000000000000001E-2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row ss:Index="11" ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s70"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.31496062000000002"/>
+    <Footer x:Margin="0.31496062000000002"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.511811024"
+     x:Right="0.511811024" x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

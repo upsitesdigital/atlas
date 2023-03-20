@@ -1,0 +1,24 @@
+pop up com downloads, por dimensão
+icone de info deve ser ativado no texto todo
+
+Operações de Paz tabelas
+- Centros de teinamento para OP
+-- pais e Instituição
+- Descrição-duração das missões
+-- missão, Descrição e duração
+
+
+Transferência de Armamentos
+- colocar um texto deixando claro que os valores estão em TIV
+- add texto "click nas etiquets para filtrar o grafico"
+- inverter destaque, e passar para milhoes de TIV, add (M)
+- criar grafifico com os dados TIV imp/exp. ref https://armstrade.sipri.org/armstrade/page/values.php
+- criar pagina de abertura com 2 graficos de rank, filtro padrão
+
+
+Base Industrial de Defesa
+- alterar as categorias e fazé las ser navegaveis e fitrando a tabela, ref gedes
+- mapa de calor, somente brasil
+
+Gastos Militares
+- criar pagina de apresentação com o rank, dos outros graficos (menos moeda nacional) com filtro

@@ -100,6 +100,7 @@ function gastosMilitares($url, $change) {
 
       }
       if ($('#allmoedalocal').length > 0) {
+        console.log(pib);
         const allmoedalocal = new Chart($('#allmoedalocal'), {
           data: {
             datasets: [{
@@ -140,6 +141,7 @@ function gastosMilitares($url, $change) {
           }
         });
       }
+      // console.log(pib);
       if ($('#moedalocal').length > 0) {
         const moedalocalG = new Chart($('#moedalocal'), {
           data: {
@@ -264,7 +266,7 @@ function operacaoPaz($url, $change) {
         $($(this)[0].children).each(function() {
           if (count === 0) {
             label.push($(this)[0].textContent);
-            console.log($(this)[0].textContent)
+            // console.log($(this)[0].textContent)
           } else {
             valCount = valCount + parseInt($(this)[0].textContent);
           }
@@ -277,8 +279,8 @@ function operacaoPaz($url, $change) {
           $("div.operacaoPazL").append('<canvas id="operacaoPaz"></canvas>');
         }
       });
-      console.log(label);
-      console.log(value);
+      // console.log(label);
+      // console.log(value);
       const operacaoPaz = new Chart($('#operacaoPaz'), {
         data: {
           datasets: [{
@@ -368,13 +370,13 @@ $.ajax({
           html += '<td>' + $(this)[0].textContent + '</td>';
         }
       });
-      console.log(html);
+      // console.log(html);
       $count++;
       $('#table').find('tbody').append('<tr>' + html + '</tr>');
 
     });
 
-    $('#table').DataTable({
+    /*$('#table').DataTable({
       language: {
         url: '//cdn.datatables.net/plug-ins/1.12.1/i18n/pt-BR.json'
       },
@@ -382,7 +384,7 @@ $.ajax({
       scrollX: true,
       scrollCollapse: true,
       fixedColumns: true
-    });
+    });*/
 
   }
 });

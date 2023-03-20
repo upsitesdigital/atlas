@@ -12,7 +12,7 @@ export default function() {
   $(document).on('click', '.btns-box .share', function() {
     var $target = $(this).find('.list-share');
     $target.slideToggle();
-    return false;
+    //return false;
   });
 
   $(document).on('click', '.sidebar .btn-menu', function() {
